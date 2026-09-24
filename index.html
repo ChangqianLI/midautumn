@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Happy Mid-Autumn Festival</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="page-shell">
+    <div class="canvas-wrap">
+      <canvas id="game" width="960" height="540" aria-label="game"></canvas>
+
+      <div id="dialogue" class="dialogue hidden">
+        <div id="dialogueText" class="dialogue-text"></div>
+      </div>
+
+      <div id="endingOverlay" class="overlay">
+        <div class="ending-card">
+          <div id="endingMoon" class="ending-moon">🌕</div>
+          <h2 id="endingTitle"></h2>
+          <div id="endingCounts" class="ending-counts"></div>
+          <p id="endingText" class="ending-text"></p>
+          <div id="endingDialogue" class="ending-dialogue"></div>
+
+          <button id="restartBtn" class="restart-btn" aria-label="restart">↻</button>
+        </div>
+      </div>
+    </div>
+
+    <div class="mobile-controls" aria-label="controls">
+      <div class="left-controls">
+        <button id="leftBtn" class="control-btn">←</button>
+        <button id="rightBtn" class="control-btn">→</button>
+      </div>
+      <div class="right-controls">
+        <button id="interactBtn" class="control-btn small">E</button>
+        <button id="jumpBtn" class="control-btn">↑</button>
+      </div>
+    </div>
+  </main>
+
+  <script src="game.js"></script>
+</body>
+</html>

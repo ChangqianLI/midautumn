@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 190">
+<defs><filter id="s"><feDropShadow dx="0" dy="4" stdDeviation="3" flood-opacity=".18"/></filter></defs>
+<g filter="url(#s)" stroke="#454753" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+  <path fill="#d7efff" d="M34 56 L26 22 L56 39 C69 34,91 34,104 40 L135 22 L126 58 C142 73,149 94,145 117 C140 148,115 166,80 166 C45 166,20 147,15 117 C11 91,21 70,34 56Z"/>
+  <path fill="#fffdfa" d="M52 49 C65 40,95 39,108 50 C103 64,98 73,80 76 C62 73,57 63,52 49Z" stroke="none"/>
+  <path fill="#fffdfa" d="M43 75 C48 65,57 59,68 58 C65 71,66 85,80 90 C94 85,95 71,92 58 C104 59,113 65,118 75 C126 91,124 119,112 132 C98 148,62 148,48 132 C36 119,34 91,43 75Z" stroke="none"/>
+  <path fill="#d7efff" d="M43 147 C35 157,31 171,40 178 C48 184,59 177,62 163"/>
+  <path fill="#d7efff" d="M117 147 C125 157,129 171,120 178 C112 184,101 177,98 163"/>
+  <ellipse cx="58" cy="96" rx="6" ry="8" fill="#373946" stroke="none"/>
+  <ellipse cx="102" cy="96" rx="6" ry="8" fill="#373946" stroke="none"/>
+  <path d="M74 109 Q80 115 86 109" fill="none"/>
+  <ellipse cx="47" cy="116" rx="10" ry="6" fill="#f5bac7" stroke="none" opacity=".7"/>
+  <ellipse cx="113" cy="116" rx="10" ry="6" fill="#f5bac7" stroke="none" opacity=".7"/>
+</g></svg>
